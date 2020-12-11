@@ -1,0 +1,147 @@
+// 导入公共的样式
+@import 'public';
+
+.main{
+    width: 1190px;
+    height: 403px;
+    margin: 10px auto 40px;
+    background: url(../img/30f97df8c47d7ab4ab9f9a40b58fa23aa1e811c6.jpg) no-repeat left -80px;
+    position: relative;
+    .login{
+        position: absolute;
+        right: -20px;
+        width: 360px;
+        height: 380px;
+        border: 2px solid #CCCCCC;
+        .login-t{
+            height: 44px;
+            padding-left: 20px;
+            font-size: 24px;
+            color: #1566C0;
+            line-height: 44px;
+            border-bottom: 1px solid #CCCCCC;
+        }
+        .login-c{
+            padding-left: 20px;
+            padding-top: 20px;
+            overflow: hidden;
+            p{
+                position: relative;
+                .inp{
+                    width: 288px;
+                    height: 26px;
+                    border: 1px solid #CCCCCC;
+                    padding: 1px 4px;
+                    margin-bottom: 40px;
+                }
+            }
+            .tips{
+                display: none;
+                position: absolute;
+                left: 0;
+                top: 35px;
+                font-size: 12px;
+                line-height: 14px;
+                color: #666666;
+                i{
+                    display: inline-block;
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    text-align: center;
+                    font-size: 12px;
+                    line-height: 12px;
+                    background: #B14C49;
+                    color: #fff;
+                    margin-right: 5px;
+                }
+            }
+            .check-box{
+                color: #666;
+                font-size: 14px;
+                line-height: 30px;
+                margin-bottom: 40px;
+                .check-inp{
+                    margin-right: 5px;
+                }
+                .check-inp:last-child{
+                    margin-left: 15px;
+                }
+            }
+            .login-btn{
+                display: inline-block;
+                width: 80px;
+                height: 36px;
+                background: #fc5910;
+                font-size: 14px;
+                line-height: 36px;
+                text-align: center;
+                border: 0;
+                color: #fff;
+            }
+            .login-btn:hover{
+                background: #DF4A09;
+            }
+            .forget{
+                font-size: 14px;
+                line-height: 36px;
+                color: #666;
+                margin: 0 5px;
+            }
+        }
+        .login-b{
+            margin-top: 24px;
+            height: 25px;
+            padding: 10px 20px;
+            background: #efefef;
+            font-size: 14px;
+            line-height: 25px;
+            color: #E73E31;
+            em{
+                float: right;
+                width: 68px;
+                height: 22px;
+                font-size: 12px;
+                line-height: 22px;
+                border: 1px solid #CCCCCC;
+                color: #333333;
+                background: #FFFFFF;
+                text-align: center;
+            }
+            em:hover{
+                background: #efefef;
+                color: #0083CE;
+            }
+        }
+        .login-failure{
+            width: 240px;
+            height: 90px;
+            position: fixed;
+            left: 0;right: 0;
+            bottom: 0;top: 0;
+            margin: auto;
+            background: #fff;
+            font-size: 12px;
+            line-height: 90px;
+            color: #333333;
+            text-align: center;
+            border: 1px solid #a3afb9;
+            box-shadow: 2px 2px 1px rgba(150, 150, 150, 0.5);
+            z-index: 99999;
+            opacity: 0;
+            i{
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                text-align: center;
+                font-size: 30px;
+                line-height: 30px;
+                background: #B14C49;
+                color: #fff;
+                margin-right: 5px;
+                vertical-align: middle;
+            }
+        }
+    }
+}

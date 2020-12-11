@@ -1,0 +1,151 @@
+// 导入公共的样式
+@import 'public';
+
+.main{
+    width: 1190px;
+    margin: 10px auto 40px;
+    // background: pink;
+    overflow: hidden;
+    // 注册信息模块
+    .registor{
+        float: left;
+        width: 626px;
+        height: 690px;
+        border: 2px solid #CCCCCC;
+        .registor-t{
+            height: 44px;
+            padding-left: 20px;
+            font-size: 24px;
+            color: #1566C0;
+            line-height: 44px;
+            border-bottom: 1px solid #CCCCCC;
+        }
+        .registor-c{
+            padding-top: 20px;
+            overflow: hidden;
+            p{
+                position: relative;
+            }
+            em{
+                display: inline-block;
+                width: 145px;
+                height: 32px;
+                font-size: 14px;
+                line-height: 32px;
+                color: #666;
+                text-align: right;
+                span{
+                    color: #EF4521;
+                }
+            }
+            .inp{
+                width: 288px;
+                height: 26px;
+                border: 1px solid #CCCCCC;
+                padding: 1px 4px;
+                margin-bottom: 40px;
+            }
+            .tips{
+                display: none;
+                position: absolute;
+                left: 150px;
+                top: 35px;
+                font-size: 12px;
+                line-height: 14px;
+                color: #666666;
+                i{
+                    display: inline-block;
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    text-align: center;
+                    font-size: 12px;
+                    line-height: 12px;
+                    background: #B14C49;
+                    color: #fff;
+                    margin-right: 5px;
+                }
+            }
+            .inp-yzm{
+                width: 80px;
+            }
+            .yzm{
+                display: inline-block;
+                width: 130px;
+                height: 27px;
+                font-size: 14px;
+                line-height: 27px;
+                color: #fff;
+                text-align: center;
+                background: #f89416;
+            }
+            .yzm:hover{
+                background: #D1770B;
+            }
+            .check-box{
+                color: #666;
+                font-size: 14px;
+                line-height: 30px;
+                margin-bottom: 35px;
+                text-align: center;
+                a{
+                    color: #0563C3;
+                }
+                a:hover{
+                    color: #0083ce;
+                }
+                .check-inp{
+                    margin-right: 10px;
+                }
+            }
+            .registor-p{
+                float: left;
+                margin-left: 150px;
+                .registor-btn{
+                    display: block;
+                    width: 80px;
+                    height: 36px;
+                    background: #fc5910;
+                    font-size: 14px;
+                    line-height: 36px;
+                    text-align: center;
+                    border: 0;
+                    color: #fff;
+                }
+                .registor-btn:hover{
+                    background: #DF4A09;
+                }
+            }
+            
+        }
+    }
+    // 去登陆
+    .go-login{
+        float: left;
+        width: 484px;
+        height: 172px;
+        border-left: 1px dotted #CCCCCC;
+        margin-left: 25px;
+        padding: 40px 25px;
+        p{
+            font-size: 14px;
+            line-height: 40px;
+            color: #5e5e5e;
+            float: left;
+        }
+        .going{
+            float: left;
+            width: 140px;
+            height: 40px;
+            background: #e2232c;
+            font-size: 16px;
+            line-height: 40px;
+            text-align: center;
+            color: #fff;
+        }
+        .going:hover{
+            background: #F7222C;
+        }
+    }
+
+}
